@@ -1,23 +1,14 @@
-# Inventory Manager (Terminal)
+# Inventory Manager
 
-Un sistema sencillo de gestión de inventario en Python usando SQLite.
+A lightweight, terminal-based inventory management application built with Python and SQLite.  
+It allows you to add, view, search, update, and delete products. You can also sort by category and export the inventory to a CSV file.
 
-## Funcionalidades
+## Features
 
-- Agregar productos
-- Mostrar inventario
-- Buscar producto por nombre
-- Ordenar por categoría
-- Exportar a CSV
-- Actualizar cantidad o precio
-- Eliminar productos
-
-## Requisitos
-
-Python 3.8+
-
-## Cómo ejecutar
-
-```bash
-python main.py
-```
+- Add new products with name, category, quantity, and price
+- List all products in a formatted view
+- Search products by name
+- Sort products by category
+- Update product quantity or price
+- Delete products from the inventory
+- Export inventory to CSV
